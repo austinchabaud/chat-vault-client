@@ -10,6 +10,13 @@
 	margin: auto;
 }
 
+@media screen and (max-width: 768px) {
+	.page-title {
+		padding-top: 15px !important;
+		text-align: center;
+	}
+}
+
 .ui.violet.button:focus,
 .ui.violet.buttons .button:focus {
 	background-color: #6435c9;
